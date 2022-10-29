@@ -101,8 +101,10 @@ max-width: 100%;
 
   border-right: 1px solid #707070;
   background-color: #F8F8F8;
-
 }
+
+
+
 
 
 /* -------footer_2--------- */
@@ -387,17 +389,33 @@ max-width: 100%;
   overflow-x: scroll;
 	white-space: nowrap;
 
-
 }
 
-.footer_3_list p {
+/* .footer_3_list p {
   padding: 0 4vw;
-}
+} */
 
 .footer_3_item{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+/* footer3の押した場所でfooter2を動かす操作 */
+
+.footer_3_list a {
+  padding: 0 4vw;
+  text-decoration: none
+}
+
+.footer_3_list a:hover, a:active {
+  color: #E88D80;
+  text-decoration: underline;
+}
+
+.footer_3_list a, a:visited {
+  color: #000;
 }
 
 
