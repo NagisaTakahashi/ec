@@ -1,11 +1,5 @@
 /* -------body--------- */
 
-
-body {
-  height:100vh;
-  height: -webkit-fill-available;
-}
-
 body{
   background-color:#fff;
   margin: 0;
@@ -43,6 +37,8 @@ max-width: 100%;
 
 /* -------footer--------- */
 
+/* -------footer_1--------- */
+
 .footer_1{
   position: fixed;
   bottom: 0;
@@ -75,6 +71,8 @@ max-width: 100%;
   width: 18vw;
 }
 
+
+
 .footer_1_item img{
   height: 24px;
   width: 24px;
@@ -87,6 +85,9 @@ max-width: 100%;
   width: 18vw;
 }
 
+.footer_1_item :hover{
+  filter: invert(80%) sepia(21%) saturate(3924%) hue-rotate(308deg) brightness(103%) contrast(82%);
+}
 
 .footer_1_fixed{
   position: fixed;
@@ -104,7 +105,7 @@ max-width: 100%;
 }
 
 
-/* footer2 */
+/* -------footer_2--------- */
 
 .footer_2{
   position: fixed;
@@ -133,69 +134,204 @@ max-width: 100%;
   border-top: dashed 1px #BEBEBE;
 }
 
+/* 対象：クリアマークのホバー */
+.footer_2_item img:hover{
+  filter: invert(80%) sepia(21%) saturate(3924%) hue-rotate(308deg) brightness(103%) contrast(82%);
+}
 
-.item_thumbnail{
+
+/* --------ここからパターン①------ */
+
+.thumbnail_p1{
   background-color: #fff;
   border: 0.5px solid #BEBEBE;
   border-radius: 1vh;
   margin: 0 2vw 0 0;
-  width: 52px;
+  width: 64px;
+  height: 72px;
+  position: relative;
 }
 
-.footer_2_item{
+.thumbnail_p1:hover{
+  border: 1px solid #E88D80;
+}
+
+.name1_p1{
+  border-radius: 1vh 1vh 0 0;
+  background-color: #E88D80;
+  opacity: 50%;
+  width: 64px;
+  position: absolute;
+  top: 0;
+}
+
+
+.image1_p1{
+  margin-top: 15px;
+  width: 64px;
+  letter-spacing: 0.1em;
+}
+
+.thumbnail_p1_icon{
+  width: 30px;
+  height: 30px;
+}
+
+.name2_p1{
+  border-radius: 0 0 1vh 1vh;
+  background-color: #E88D80;
+  opacity: 50%;
+  width: 64px;
+  position: absolute;
+  bottom: 0;
+}
+
+.name2_p1 p{
+  transform: scale(0.8);
+  letter-spacing: -0.1em;
+}
+
+
+
+
+/* --------ここまでパターン①------ */
+
+
+/* --------ここからパターン②------ */
+
+
+
+
+
+.thumbnail_p2{
+  background-color: #fff;
+  border: 0.5px solid #BEBEBE;
+  border-radius: 1vh;
+  margin: 0 2vw 0 0;
+  width: 64px;
+  position: relative;
+}
+
+.thumbnail_p2:hover{
+  border: 1px solid #E88D80;
+}
+
+.thumbnail_p2_bg{
+  width: 64px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 1vh;
+}
+
+.name1_p2{
+  border-radius: 1vh 1vh 0 0;
+  background-color: #E88D80;
+  opacity: 80%;
+  width: 64px;
+  position: absolute;
+  top: 0;
+}
+
+
+.name2_p2{
+  border-radius: 0 0 1vh 1vh;
+  background-color: #E88D80;
+  opacity: 80%;
+  width: 64px;
+  position: absolute;
+  bottom: 0;
+}
+
+.name1_p2 p {
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.name2_p2 p{
+  color: #fff;
+  transform: scale(0.8);
+  letter-spacing: -0.1em;
+}
+
+
+/* --------ここまでパターン②------ */
+
+
+
+/* --------ここからパターン③------ */
+
+.thumbnail_p3{
+  background-color: #fff;
+  border: 0.5px solid #BEBEBE;
+  border-radius: 1vh;
+  margin: 0 2vw 0 0;
+  width: 64px;
+}
+
+.thumbnail_p3:hover{
+  border: 1px solid #E88D80;
+  z-index: 999;
+}
+
+
+.thumbnail_p3_wrapper{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.list_detail_1{
+.name1_p3{
   background-color: #fff;
   border-bottom: 0.5px solid #BEBEBE;
   border-radius: 1vh 1vh 0 0;
   margin: 0 1vw;
-  width: 52px;
+  width: 64px;
   height: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* .list_detail_1 p {
-  width: 60px;
-} */
+.name1_p3 p{
+  letter-spacing: 0.1em;
+}
 
-.list_detail_2{
+.image_p3{
   display: flex;
   background-color: #fff;
   margin: 0 1vw;
-  width: 52px;
+  width: 64px;
   height: 40px;
   justify-content: center;
   align-items: center;
 }
 
-.list_detail_2 img{
+.image_p3 img{
   width: 24px;
   height: 24px;
 }
 
-.list_detail_3{
+.name2_p3{
   background-color: #fff;
   border-top: 0.5px solid #BEBEBE;
   border-radius: 0 0 1vh 1vh;
   margin: 0 1vw;
-  width: 52px;
+  width: 64px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.list_detail_3 p{
+.name2_p3 p{
   word-wrap: break-word;
+  display: block;
+  transform: scale(0.8);
+  letter-spacing: -0.1em;
 }
 
+/* --------ここまでパターン③------ */
 
 .footer_2_fixed{
   position: fixed;
@@ -219,7 +355,10 @@ max-width: 100%;
 
 
 
-/* footer3 */
+
+
+
+/* -------footer_3--------- */
 
 .footer_3{
   position: fixed;
@@ -237,6 +376,9 @@ max-width: 100%;
   background-color: #F8ECEA;
   text-align: center;
   font-size: 0.6rem;
+
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
 }
 
 .footer_3_list{
