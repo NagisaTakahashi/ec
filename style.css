@@ -51,7 +51,7 @@ max-width: 100%;
   background-color: rgb(248,248,248);
   border-top: solid 1px rgb(229,231,235);
   text-align: center;
-
+  font-size: 0.8rem;
 }
 
 .footer_1_list{
@@ -63,9 +63,6 @@ max-width: 100%;
 
   overflow-x: scroll;
   white-space: nowrap;
-
-  font-size: 0.875rem;
-
 }
 
 
@@ -98,7 +95,6 @@ max-width: 100%;
 
   border-right: 1px solid #707070;
   background-color: #F8F8F8;
-  font-size: 0.875rem;
 
 }
 
@@ -112,27 +108,24 @@ max-width: 100%;
 
   width: 100%;
 
-
   box-sizing: border-box;
   padding-left: 20vw;
   border-top: solid 1px rgb(229,231,235);
 
   background-color: #F8ECEA;
   text-align: center;
- 
+  font-size: 0.6rem;
 }
 
 .footer_2_list{
   display: flex;
 
   overflow-x: scroll;
-	white-space: nowrap;
 
   height: 73px;  
   padding: 10px 2vw;
 
   border-top: dashed 1px #BEBEBE;
-  font-size: 0.6rem;
 }
 
 
@@ -141,7 +134,7 @@ max-width: 100%;
   border: 0.5px solid #BEBEBE;
   border-radius: 1vh;
   margin: 0 2vw 0 0;
-  width: 40px;
+  width: 52px;
 }
 
 .footer_2_item{
@@ -156,22 +149,22 @@ max-width: 100%;
   border-bottom: 0.5px solid #BEBEBE;
   border-radius: 1vh 1vh 0 0;
   margin: 0 1vw;
-  width: 40px;
+  width: 52px;
   height: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.list_detail_1 p {
-  width: 40px;
-}
+/* .list_detail_1 p {
+  width: 60px;
+} */
 
 .list_detail_2{
   display: flex;
   background-color: #fff;
   margin: 0 1vw;
-  width: 40px;
+  width: 52px;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -187,7 +180,7 @@ max-width: 100%;
   border-top: 0.5px solid #BEBEBE;
   border-radius: 0 0 1vh 1vh;
   margin: 0 1vw;
-  width: 40px;
+  width: 52px;
   height: 20px;
   display: flex;
   align-items: center;
@@ -195,8 +188,7 @@ max-width: 100%;
 }
 
 .list_detail_3 p{
-  font-size: 8px;
-  width: 40px;
+  word-wrap: break-word;
 }
 
 
@@ -217,7 +209,6 @@ max-width: 100%;
   border-right: 1px solid #707070;
   border-top: dashed 1px #BEBEBE;
   background-color: #F8ECEA; 
-  font-size: 0.6rem;
 }
 
 
@@ -240,6 +231,7 @@ max-width: 100%;
 
   background-color: #F8ECEA;
   text-align: center;
+  font-size: 0.6rem;
 }
 
 .footer_3_list{
@@ -248,9 +240,6 @@ max-width: 100%;
   overflow-x: scroll;
 	white-space: nowrap;
 
-
-
-  font-size: 0.675rem;
 
 }
 
@@ -262,7 +251,6 @@ max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.6rem;
 }
 
 
@@ -283,5 +271,4 @@ max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.6rem;
 }
