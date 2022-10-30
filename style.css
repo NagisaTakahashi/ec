@@ -34,6 +34,155 @@ max-width: 100%;
   align-items: center;
 }
 
+.header_3{
+  height: 36px;
+  padding: 8px;
+  background-color: #fff;
+  border-bottom: solid 1px rgb(229,231,235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+
+.header_btn{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 2vw;
+  z-index: 900;
+}
+
+
+
+.save_btn {
+
+  border: solid 1px #E88D80;
+  color: #fff;
+  font-size: 0.6rem;
+  
+  width: 78px;
+  height: 28px;
+  border-radius: 2vw;
+
+}
+
+.save_btn a{
+  display: block;
+  width: 78px;
+  height: 28px;
+  color: #E88D80;
+  text-decoration: none;
+  text-align: center;
+  line-height:28px;
+}
+
+.save_btn a:visited{
+  color: #E88D80;
+  text-decoration: none;
+}
+
+.cart_btn {
+  background-color: #E88D80;
+  color: #fff;
+  font-size: 0.6rem;
+  
+  width: 78px;
+  height: 28px;
+  border-radius: 2vw;
+
+  margin-left: 3.6vw;   /* 隣の保存ボタンとのスペース */
+}
+
+.cart_btn a{
+  display: block;
+  width: 78px;
+  height: 28px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height:28px;
+}
+
+.cart_btn a:visited {
+  color: #fff;
+}
+
+
+
+
+
+
+
+/* -------main--------- */
+
+.main_image_area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main_image{
+  width: 94vw;
+  height: 56ch;
+  object-fit: cover; 
+  border:solid 0.5px #BEBEBE;
+  margin: 1vh 0;
+}
+
+.main_image_zoom{
+  position: absolute;
+  z-index: 999;
+  top: 2.4vh;
+  right: 2.4vh;
+  width: 20px;
+  height: 20px;
+}
+
+
+.main_image_face_swap{
+  position: absolute;
+  z-index: 999;
+  top: 2.4vh;
+  left: 2.4vh;
+  width: 20px;
+  height: 20px;
+}
+
+.main_image_arrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 2.4vh;
+  z-index: 900;
+  width: 28vw;
+}
+
+.main_image_arrow img{
+  width: 20px;
+}
+
+.main_image_arrow p{
+  font-size: 0.6rem;
+  transform: scale(0.8);
+  letter-spacing: 0.1em;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* -------footer--------- */
 
@@ -405,13 +554,14 @@ max-width: 100%;
 /* footer3の押した場所でfooter2を動かす操作 */
 
 .footer_3_list a {
-  padding: 0 4vw;
+  margin: 0 4vw;  /* ホバー時下線の都合でpaddingではなくあえてmarjinにしています */
   text-decoration: none
 }
 
 .footer_3_list a:hover, a:active {
   color: #E88D80;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: solid 1.6px #E88D80 ;
 }
 
 .footer_3_list a, a:visited {
