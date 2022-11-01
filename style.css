@@ -46,9 +46,6 @@ max-width: 100%;
 }
 
 
-
-
-
 .header_btn{
   display: flex;
   align-items: center;
@@ -56,8 +53,6 @@ max-width: 100%;
   right: 2vw;
   z-index: 900;
 }
-
-
 
 .save_btn {
 
@@ -111,8 +106,6 @@ max-width: 100%;
 .cart_btn a:visited {
   color: #fff;
 }
-
-
 
 
 
@@ -234,8 +227,9 @@ max-width: 100%;
   width: 18vw;
 }
 
-.footer_1_item :hover{
-  filter: invert(80%) sepia(21%) saturate(3924%) hue-rotate(308deg) brightness(103%) contrast(82%);
+
+.footer_1_item:hover{
+  filter: invert(20%) sepia(54%) saturate(5936%) hue-rotate(330deg) brightness(97%) contrast(103%);
 }
 
 .footer_1_fixed{
@@ -286,8 +280,9 @@ max-width: 100%;
 }
 
 /* 対象：クリアマークのホバー */
-.footer_2_item img:hover{
-  filter: invert(80%) sepia(21%) saturate(3924%) hue-rotate(308deg) brightness(103%) contrast(82%);
+.footer_2_item:hover{
+  /* filter: invert(80%) sepia(21%) saturate(3924%) hue-rotate(308deg) brightness(103%) contrast(82%); */
+  filter: invert(20%) sepia(54%) saturate(5936%) hue-rotate(330deg) brightness(97%) contrast(103%);
 }
 
 
@@ -304,7 +299,7 @@ max-width: 100%;
 }
 
 .thumbnail_p1:hover{
-  border: 1px solid #E88D80;
+  border: 1px solid #fc125d;
 }
 
 .name1_p1{
@@ -364,7 +359,7 @@ max-width: 100%;
 }
 
 .thumbnail_p2:hover{
-  border: 1px solid #E88D80;
+  border: 1px solid #fc125d;
 }
 
 .thumbnail_p2_bg{
@@ -420,7 +415,7 @@ max-width: 100%;
 }
 
 .thumbnail_p3:hover{
-  border: 1px solid #E88D80;
+  border: 1px solid #fc125d;
   z-index: 999;
 }
 
@@ -554,14 +549,14 @@ max-width: 100%;
 /* footer3の押した場所でfooter2を動かす操作 */
 
 .footer_3_list a {
-  margin: 0 4vw;  /* ホバー時下線の都合でpaddingではなくあえてmarjinにしています */
+  margin: 0 4vw;  /* ホバー時下線の都合でpaddingではなくあえてmarginにしています */
   text-decoration: none
 }
 
 .footer_3_list a:hover, a:active {
-  color: #E88D80;
+  color: #fc125d;
   /* text-decoration: underline; */
-  border-bottom: solid 1.6px #E88D80 ;
+  border-bottom: solid 1.6px #fc125d ;
 }
 
 .footer_3_list a, a:visited {
@@ -586,4 +581,14 @@ max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer_3_item img{
+width:12px ;
+height:12px;
+}
+
+/* お気に入りアイコンのホバー */
+.footer_3_item:hover{
+  filter: invert(20%) sepia(54%) saturate(5936%) hue-rotate(330deg) brightness(97%) contrast(103%);
 }
